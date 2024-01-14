@@ -1,0 +1,515 @@
+<!Doctype html>
+<html>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200;0,6..72,300;0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;0,6..72,800;1,6..72,200;1,6..72,300;1,6..72,400;1,6..72,500;1,6..72,600;1,6..72,700&display=swap"
+    rel="stylesheet">
+<script src="https://kit.fontawesome.com/49d51e8a80.js" crossorigin="anonymous"></script>
+
+
+<link rel="stylesheet" href="file6.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg" style="background-color:black;">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+
+                        <a class="nav-link" href="#" style="color: aliceblue;"><i
+                                class="fa-regular fa-clock me-2"></i>Visit
+                            time: Mon-Sat
+                            9:00-19:00</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: aliceblue;"><i
+                                class="fa-solid fa-headset me-2"></i>Call
+                            us now: +01
+                            035-477-5588</a>
+                    </li>
+                </ul>
+                <div class="dropdown">
+                    <a class="btn dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false" style="color: aliceblue;">
+                        <img src="uk.svg" width="20%">English</a>
+
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#"><img src="sp.svg" width="20%">Espansol</a></li>
+                        <li><a class="dropdown-item" href="#"><img src="fr.svg" width="20%">Francais</a></li>
+                        <li><a class="dropdown-item" href="#"><img src="gr.svg" width="20%">Deutsch</a></li>
+                    </ul>
+                </div>
+                <div class="dropdown">
+                    <a class="btn dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false" style="color: aliceblue;">
+                        <i class="fa-regular fa-sun"></i></a>
+
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#"><i class="fa-regular fa-sun"></i>Light</a></li>
+                        <li><a class="dropdown-item" href="#"><i class="fa-solid fa-star"></i>Dark</a></li>
+                        <li><a class="dropdown-item" href="#"><i class="fa-solid fa-circle-half-stroke"></i>Auto</a>
+                        </li>
+                    </ul>
+                </div>
+                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                    data-bs-whatever="@mdo" style="color: aliceblue;"><i
+                        class="fa-regular fa-user me-2"></i>Login</button>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <div class="modal-title">
+                                    <h1 class=" fs-5" id="exampleModalLabel">Sign in to your account!</h1>
+                                    <p class="fs-5" id="exampleModalLabel">Nice to see you! Please log in with
+                                        your account.</p>
+                                </div>
+
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <div class="mb-3">
+                                        <label for="recipient-name" class="col-form-label">Email address</label>
+                                        <input type="text" class="form-control" id="recipient-email"
+                                            placeholder="E-mail">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="message-text" class="col-form-label">Password</label>
+                                        <input type="text" class="form-control" id="recipient-email"
+                                            placeholder="******">
+                                </form>
+                            </div>
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Keep me signed in</label>
+                            </div>
+                            <div class="row align-items-center">
+                                <div class="col-sm-4">
+                                    <button type="submit" class="bt btn-dark">Login</button>
+                                </div>
+                                <div class="col-sm-8 text-sm-end">
+                                    <span class="text-muted">"Don't have an account?"
+                                        <a href="sign-up.html">Signup here</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="nav header-social justify-content-end d-none d-lg-block white-link" style="color: aliceblue;">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg" style="justify-content: space-between;">
+        <img src="logo (1).svg">
+        </div>
+
+        <div class="navbarNavDarkDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <button class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"
+                        style="color: #4b566b;">
+                        Demos
+                    </button>
+
+                <li class="nav-item dropdown">
+                    <button class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"
+                        style="color:  #4b566b;">
+                        Latest
+                    </button>
+                <li class="nav-item dropdown">
+                    <button class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"
+                        style="color:  #4b566b;">
+                        Collection
+                    </button>
+                <li class="nav-item dropdown">
+                    <button class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"
+                        style="color: #4b566b;">
+                        Categories
+                    </button>
+                <li class="nav-item dropdown">
+                    <button class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"
+                        style="color: #4b566b;">
+                        Pages
+                    </button>
+                    <ul class="dropdown-menu" style="color: aliceblue;">
+                        <li><a class="dropdown-item" href="#">About</a></li>
+                        <li><a class="dropdown-item" href="#">FAQ's</a></li>
+                        <li><a class="dropdown-item" href="#">Policy</a></li>
+                        <li><a class="dropdown-item" href="#">Support</a></li>
+                        <li><a class="dropdown-item" href="#">Support Policy</a></li>
+                        <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                    </ul>
+                <li class="nav-item dropdown">
+                    <button class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"
+                        style="color:  #4b566b;">
+                        Blogs
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                        <li><a class="dropdown-item" href="#">Blog</a></li>
+                        <li><a class="dropdown-item" href="#">Blog Single</a></li>
+                    </ul>
+                </li>
+                </li>
+                </li>
+                </li>
+                </li>
+                </li>
+            </ul>
+        </div>
+        <div class="nav" style="color: #4b566b;flex-wrap: nowrap;">
+            <i class="fa-solid fa-magnifying-glass me-2"></i>
+            <i class="fa-solid fa-user me-2"></i>
+            <i class="fa-solid fa-heart me-2"></i>
+            <i class="fa-solid fa-cart-shopping me-2"></i>
+        </div>
+    </nav>
+    <div class="crumb">
+        <div class="container">
+            <h1 style="color: #152C5B;font-size: 1.35rem;font-weight: 600;">Shop</h1>
+        </div>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Product</li>
+            </ol>
+        </nav>
+    </div>
+    <div class="container px-4 text-center">
+        <div class="row gx-5">
+            <div class="col">
+                <div class="p-3">
+                    <img src="product-x-2.jpg" width="100%" height="auto">
+                </div>
+                <div class="images" style="display: flex;padding-top: 2%;">
+                    <img src="product-x-3.jpg" width="30%" height="auto">
+                    <img src="product-x-4.jpg" width="30%" height="auto">
+                    <img src="product-x-5.jpg" width="30%" height="auto">
+                    <img src="product-x-6.jpg" width="30%" height="auto">
+                    <img src="product-x-3.jpg" width="30%" height="auto">
+                </div>
+            </div>
+            <div class="col">
+                <div class="p-3">
+                    <div class="review" style="margin: 5%;text-align: left;">
+                        <h1 style="color:  #4b566b;font-size: 18px;">Brand name</h1>
+                        <p style="font-size: 1.35rem;color: #152C5B;font-weight: 600;">Fine-knit sweater</p>
+                        <i class="fa-solid fa-star" style="color: #fea569;"></i>
+                        <i class="fa-solid fa-star" style="color: #fea569;"></i>
+                        <i class="fa-solid fa-star" style="color: #fea569;"></i>
+                        <i class="fa-solid fa-star" style="color: #fea569;"></i>
+                        <i class="fa-regular fa-star"></i>(4)reviews
+                    </div>
+                </div>
+                <div class="description">
+                    <p style="color: #4b566b;text-align: left;">Lorem ipsum dolor sit amet, consectetur adipisic elit
+                        eiusm tempor incidid ut labore et dolore magna aliqua. Ut enim ad minim venialo quis nostrud
+                        exercitation ullamco</p>
+                </div>
+                <div class="size">
+                    <p style="text-align: left;">Size</p>
+                    <div class="input-group">
+                        <span class="input-group-text me-2" id="addon-wrapping">XS</span>
+                        <span class="input-group-text me-2" id="addon-wrapping">X</span>
+                        <span class="input-group-text me-2" id="addon-wrapping">M</span>
+                        <span class="input-group-text me-2" id="addon-wrapping">L</span>
+                    </div>
+                    <div class="color" style="padding-top: 5%;">
+                        <p style="text-align: left;font-weight: bold;">Color</p>
+                        <div class="input-group">
+                            <span class="input-group-text me-2" id="addon-wrapping"
+                                style="background-color: green;border-radius: 100%;height: 25px;"></span>
+                            <span class="input-group-text me-2" id="addon-wrapping"
+                                style="background-color: orange;border-radius: 100%;height: 25px;"></span>
+                            <span class="input-group-text me-2" id="addon-wrapping"
+                                style="background-color: blue;border-radius: 100%;height: 25px;"></span>
+                            <span class="input-group-text me-2" id="addon-wrapping"
+                                style="background-color: darkslategray;border-radius: 100%;height: 25px;"></span>
+                        </div>
+                        <div class="input-group" style="padding-top: 5%;">
+                            <span class="input-group-text me-2" id="addon-wrapping">13 Days</span>
+                            <span class="input-group-text me-2" id="addon-wrapping">00 Hour</span>
+                            <span class="input-group-text me-2" id="addon-wrapping">01 Minute</span>
+                            <span class="input-group-text me-2" id="addon-wrapping">18 Seconds</span>
+                        </div>
+                        <p class="card-text">
+                        <p class="rank1" style="text-align: left;"><span
+                                style="color: #4b566b;text-decoration: line-through;"
+                                style="color: #b82e38;font-weight: 600;font-size: 20px;padding: 5px;">$38.50</span><span
+                                style="color: #b82e38;font-weight: 600;font-size: 30px;padding: 5px;">$28.50</span></p>
+                    </div>
+                    <div class="bb" style="text-align: left;">
+                        <button type="button" class="btn btn-outline-dark">1</button>
+                        <button type="button" class="btn btn-outline-dark"><i class="fa-solid fa-cart-shopping"></i>Add
+                            to cart</button>
+                        <button type="button" class="btn btn-outline-dark"><i class="fa-regular fa-heart"></i></button>
+                        <button type="button" class="btn btn-outline-dark"><i class="fa-solid fa-repeat"></i></button>
+                    </div>
+                    <div class="page" style="justify-content: space-between; display: flex;padding-top: 5%;">
+                        <div class="size-guide" style="display: flex;">
+                            <p><i class="fa-solid fa-scissors"></i>Size guide</p>
+                            <p><i class="fa-solid fa-truck-fast"></i>Shipping</p>
+                        </div>
+                        <div class="product" style="text-align: left;">
+                            <p><i class="fa-regular fa-envelope"></i>Ask about products</p>
+                        </div>
+                    </div>
+                    <div class="Categories" style="text-align: left;font-size: .875rem;color: #858c97;">
+                        <p>Categories:Sunglasses,Winter,Shorts,Wool</p>
+                        <p>Tags:fashion,winter,women</p>
+                        <div class="icon" style="display: flex;">
+                            <p>Share:</p>
+                            <div>
+                                <i class="fa-brands fa-facebook me-2"></i>
+                                <i class="fa-brands fa-instagram me-2"></i>
+                                <i class="fa-brands fa-twitter me-2"></i>
+                                <i class="fa-brands fa-linkedin me-2"></i>
+                            </div>
+                        </div>
+                        <div class="payeent-partner">
+                            <img src="payment-details.png">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <ul class="nav nav-underline" style="justify-content: center;padding-top: 5%;">
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#"
+                style="font-size: 20px;color: #e63946;">Description</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#" style="font-size: 20px;color: black;font-weight: 600;">Information</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#" style="font-size: 20px;color: black;font-weight: 600;">Reviews</a>
+        </li>
+    </ul>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1 style="font-size: 1.125rem;color: #152C5B;font-weight: 600;padding-top: 10%;">Details Description
+                </h1>
+                <p style="color: #4b566b;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p style="color: #4b566b;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                <div class="unorder-list">
+                    <h1 style="font-size: 1.125rem;color: #152C5B;font-weight: 600;">Sample Unordered List</h1>
+                    <ul style="list-style-type:circle;color: #4b566b;">
+                        <li>Comodous in tempor ullamcorper miaculis</li>
+                        <li>Pellentesque vitae neque mollis urna mattis laoreet.</li>
+                        <li>Divamus sit amet purus justo.</li>
+                        <li>Proin molestie egestas orci ac suscipit risus posuere loremous</li>
+                    </ul>
+                </div>
+                <div class="order-list">
+                    <h1 style="font-size: 1.125rem;color: #152C5B;font-weight: 600;">Sample Ordered List</h1>
+                    <ol type="1" style="color: #4b566b;">
+                        <li>Comodous in tempor ullamcorper miaculis</li>
+                        <li>Pellentesque vitae neque mollis urna mattis laoreet.</li>
+                        <li>Divamus sit amet purus justo.</li>
+                        <li>Proin molestie egestas orci ac suscipit risus posuere loremous</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="col">
+                <div class="p-3">
+                    <img src="product-6 (1).jpg" width="100%" height="auto">
+                </div>
+                <div class="container text-center">
+                    <div class="row row-cols-2" style="padding: 8%;">
+                        <div class="col" style="display: flex;border: 1px solid #e3e9ef;">
+                            <i class="fa-solid fa-truck-fast"
+                                style="font-size: 30px;text-align: center;color: #e63946;"></i>
+                            <div class="col">
+                                <h1 style="font-size: 15px;">Free shipping</h1>
+                                <p>Lorem ipsum dolor sit amet</p>
+                            </div>
+                        </div>
+                        <div class="col" style="display: flex;border: 1px solid #e3e9ef;">
+                            <i class="fa-solid fa-headphones"
+                                style="font-size: 30px;text-align: center;color: #e63946"></i>
+                            <div class="col">
+                                <h1 style="font-size: 15px;">Contact us 24/7</h1>
+                                <p>Lorem ipsum dolor sit amet</p>
+                            </div>
+                        </div>
+                        <div class="col" style="display: flex;border: 1px solid #e3e9ef;">
+                            <i class="fa-solid fa-box-open"
+                                style="font-size: 30px;text-align: center;color:#e63946;"></i>
+                            <div class="col">
+                                <h1 style="font-size: 15px;">30 Days Return</h1>
+                                <p>Lorem ipsum dolor sit amet</p>
+                            </div>
+                        </div>
+                        <div class="col" style="display: flex;border: 1px solid #e3e9ef;">
+                            <i class="fa-solid fa-lock" style="font-size: 30px;text-align: center;color: #e63946;"></i>
+                            <div class="col">
+                                <h1 style="font-size: 15px;">100% Secure Payment</h1>
+                                <p>Lorem ipsum dolor sit amet</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="browser" style="background-color: #f6f9fc;">
+        <div class="black-friday" style="text-align: center;padding-top: 5%;">
+            <h1 style="color: #152C5B;font-weight: 600;font-size: 1.8rem;">You might also like these</h1>
+            <p style="font-size: .9rem;color: #4b566b;">Read Today’s News</p>
+        </div>
+        <div class="container" style="display: flex;">
+            <div class="col-3">
+                <div class="card">
+                    <h6 class="card-img-top" alt="..."> <span class="badge bg-danger">Sale</span>
+                    </h6>
+                    <img src="product-4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body1" style="text-align: center;">
+                        <p style="color: grey;font-size: 11px;">Clothing, men</p>
+                        <i class="fa-solid fa-star" style="color: #fea569;"></i>
+                        <i class="fa-solid fa-star" style="color: #fea569;"></i>
+                        <i class="fa-solid fa-star" style="color: #fea569;"></i>
+                        <i class="fa-solid fa-star" style="color: #fea569;"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <h5 style="font-weight: 600;font-size: 0.9rem;">Fine-knit Sweater</h5>
+                        <p class="rank1"><span
+                                style="color: #b82e38;font-weight: 600;font-size: 20px;padding: 5px;">$20.00</span><span
+                                style="color: #4b566b;text-decoration: line-through;">$18.00</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card">
+                    <h6 class="card-img-top" alt="..."> <span class="badge bg-danger">Sale</span>
+                    </h6>
+                </div>
+                <img src="product-5.jpg" class="card-img-top" alt="...">
+                <div class="card-body1" style="text-align: center;">
+                    <p style="color: grey;font-size: 11px;">Clothing, men</p>
+                    <i class="fa-solid fa-star" style="color: #fea569;"></i>
+                    <i class="fa-solid fa-star" style="color: #fea569;"></i>
+                    <i class="fa-solid fa-star" style="color: #fea569;"></i>
+                    <i class="fa-solid fa-star" style="color: #fea569;"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <h5 class="card-title" style="font-weight: 600;font-size: 0.9rem;">Fine-knit Sweater</h5>
+                    <p class="rank1"><span
+                            style="color: #b82e38;font-weight: 600;font-size: 20px;padding: 5px;">$20.00</span><span
+                            style="color: #4b566b;text-decoration: line-through;">$18.00</span></p>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card">
+                    <h6 class="card-img-top" alt="..."> <span class="badge bg-danger">Sale</span>
+                    </h6>
+                    <img src="product-6.jpg" class="card-img-top" alt="...">
+                    <div class="card-body1" style="text-align: center;">
+                        <p style="color: grey;font-size: 11px;">Clothing, men</p>
+                        <i class="fa-solid fa-star" style="color: #fea569;"></i>
+                        <i class="fa-solid fa-star" style="color: #fea569;"></i>
+                        <i class="fa-solid fa-star" style="color: #fea569;"></i>
+                        <i class="fa-solid fa-star" style="color: #fea569;"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <h5 class="card-title" style="font-weight: 600;font-size: 0.9rem;">Fine-knit Sweater
+                        </h5>
+                        <p class="rank1"><span
+                                style="color: #b82e38;font-weight: 600;font-size: 20px;padding: 5px;">$20.00</span><span
+                                style="color: #4b566b;text-decoration: line-through;">$18.00</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card">
+                    <h6 class="card-img-top" alt="..."> <span class="badge bg-danger">Sale</span>
+                    </h6>
+                    <img src="product-7.jpg" class="card-img-top" alt="...">
+                    <div class="card-body1" style="text-align: center;">
+                        <p style="color: grey;font-size: 11px;">Clothing, men</p>
+                        <i class="fa-solid fa-star" style="color: #fea569;"></i>
+                        <i class="fa-solid fa-star" style="color: #fea569;"></i>
+                        <i class="fa-solid fa-star" style="color: #fea569;"></i>
+                        <i class="fa-solid fa-star" style="color: #fea569;"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <h5 class="card-title" style="font-weight: 600;font-size: 0.9rem;">Fine-knit Sweater
+                        </h5>
+                        <p class="rank1"><span
+                                style="color: #b82e38;font-weight: 600;font-size: 20px;padding: 5px;">$20.00</span><span
+                                style="color: #4b566b;text-decoration: line-through;">$18.00</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid" style="padding-top: 5%;color: #f6f9fc;background-color: black;">
+        <div class="row">
+            <div class="col">
+                <p><img src="logo-light.svg"></p>
+                <p>301 The Greenhouse London,</p>
+                <p>E2 8DY UK</p>
+                <p>support@domain.com</p>
+                <p>820-885-3321</p>
+                <div class="icon">
+                    <i class="fa-brands fa-facebook me-2"></i>
+                    <i class="fa-brands fa-instagram me-2"></i>
+                    <i class="fa-brands fa-twitter me-2"></i>
+                    <i class="fa-brands fa-linkedin me-2"></i>
+                </div>
+            </div>
+            <div class="col">
+                <p>Support</p>
+                <p>Contact Us</p>
+                <p>Feedback</p>
+                <p>Unsubscribe</p>
+                <p>Reservations</p>
+            </div>
+            <div class="col">
+                <p>Priacy Policy</p>
+                <p>Terms of Use</p>
+                <p>Gif Card Conditions</p>
+                <p>Shipping</p>
+                <p>Return</p>
+            </div>
+            <div class="col">
+                <p>STAY UPTO DATE</p>
+                <p>Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan.</p>
+                <div style="display: flex;">
+                    <input type="name" id="input" placeholder="Enter your name">
+                    <button type="submit" class="btn" style="background-color: #e63946;color: #f6f9fc;">Get
+                        Started</button>
+                </div>
+                <p>New UI kits or big discounts. Never spam</p>
+            </div>
+        </div>
+        <div class="footer1">
+            <div class="footer">
+                <p>@ 2023cpyright by pxdraft</p>
+            </div>
+            <div class="payment-partner">
+                <img src="payments.png">
+            </div>
+        </div>
+    </div>

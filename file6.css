@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav i {
+    padding: 0;
+    width: 35px;
+    height: 35px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(var(--bs-white-rgb), .4);
+    border-radius: 50%;
+    line-height: 1;
+}
+.portfolio {
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+    border: none;
+}
+.crumb {
+display: flex;
+justify-content: space-around;
+background-color: #f6f9fc;
+height: 70px;
+padding: 1%;
+
+}
+.footer1 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2%;
+}

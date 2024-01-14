@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav i {
+    padding: 0;
+    width: 35px;
+    height: 35px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(var(--bs-white-rgb), .4);
+    border-radius: 50%;
+    line-height: 1;
+}
+
+.portfolio {
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+    border: none;
+}
+
+.crumb {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f6f9fc;
+    height: 70px;
+    padding: 1%;
+}
+
+.container1 {
+    background-image: url(home-banner-1.jpg);
+    height: 500px;
+    text-align: center;
+    padding-top: 200px;
+
+}
+
+.botton {
+    color: #f6f9fc;
+    background: transparent;
+    height: 15%;
+    width: 10%;
+    cursor: pointer;
+}
+.product1 {
+    background: url(shop-banner-1.jpg);
+    height: 500px;
+    width: 70%;
+    text-align: center;
+    padding-top: 200px;
+    color: #f6f9fc;
+}
+.product2 {
+    background: url(shop-banner-2.jpg);
+    height: 500px;
+    width: 70%;
+    text-align: center;
+    padding-top: 200px;
+    color: #f6f9fc;
+}
+.product3 {
+    background: url(shop-banner-3.jpg);
+    height: 500px;
+    width: 70%;
+    text-align: center;
+    padding-top: 200px;
+    color: #f6f9fc;
+}
+.container-4 {
+    background: url(bg-banner-1.jpg);
+    height: 500px;
+    text-align: center;
+    color: #f6f9fc;
+    padding-top: 200px;
+}
+.button-1 {
+    justify-content: center;
+   
+}

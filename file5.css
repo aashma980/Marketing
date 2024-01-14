@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav i {
+    padding: 0;
+    width: 35px;
+    height: 35px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(var(--bs-white-rgb), .4);
+    border-radius: 50%;
+    line-height: 1;
+}
+.portfolio {
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+    border: none;
+}
+.shopping-category {
+   margin-top: 5%; 
+    text-align: center;
+    font-size: 1.5rem;
+    color:#152C5B;
+    font-weight: bolder;
+    
+}
+.card-body {
+    text-align: center;
+    padding: 2%;
+}
+.card-text {
+    display: flex;
+}
+.container-3{
+    display: flex;
+}
+.position-absolute {
+    top: 20px;
+    
+    left: 25px;
+    
+}
+.container-5 {
+    display: flex;
+    justify-content: center;
+}
+.contains {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #d7dde2;
+    text-align: center;
+   
+}
+.grid {
+    display: flex;
+    justify-content: space-around;
+}
+.footer1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 2%;
+}

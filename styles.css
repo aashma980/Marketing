@@ -62,5 +62,16 @@
 .footer1 {
     display: flex;
     justify-content: space-between;
-    margin: 2%;
+   
 }
+.crumb {
+display: flex;
+justify-content: space-around;
+background-color: #f6f9fc;
+height: 70px;
+padding: 1%;
+
+}
+
+
+
